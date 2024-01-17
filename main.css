@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'FuturaPT-Bold';
+    src: url('./fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT-Book';
+    src: url('./fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT-Light';
+    src: url('./fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT-Medium';
+    src: url('./fonts/FuturaPT-Medium.woff2') format('woff2'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'FuturaPT', 'Arial', sans-serif;
+    color: #333333;
+    background-color: #F9F8F8;
+}
+
+/* -------------------------------------HEADER---------------------------------------- */
+
+.site-header {}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header__inner {}
+
+/* ---------------------------------------HEADER TOP-------------------------------- */
+.site-header__inner-top {
+    text-align: center;
+    padding: 12px;
+    
+}
+
+.site-header__inner-top__inner {
+    display: flex;
+}
+
+.site-header__inner-top__adress-main {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-right: 106px;
+}
+
+.site-header__inner-top__adress-logo {
+    width: 14px;
+    height: 13px;
+    margin-right: 9px;
+}
+
+.site-header__inner-top__adress-adress {
+    font-style: normal;
+}
+
+.site-header__inner-top__tel-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 490px;
+    margin-right: 98px;
+}
+
+.site-header__inner-top__tel-logo {
+    margin-right: 9px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.site-header__inner-top__tel-item {
+    margin-right: 22px;
+}
+
+.site-header__inner-top__calendar-list {
+    list-style: none;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.site-header__inner-top__calendar-item {
+    margin-right: 17px;
+}
+
+/* -----------------------------------------HEADER BOTTOM---------------------------------------- */
+.site-header__inner-bottom {
+    display: flex;
+    background-color: #fff;
+    background-image: url('./images/baliq.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 440px) calc(50%);
+}
+
+.site-header__inner-bottom__logo-link {
+    position: absolute;
+}
+
+.site-header__inner-bottom__logo {}
+
+.site-header__inner-bottom__list {
+    display: flex;
+    padding: 20px 0 20px 0;
+    list-style: none;
+    justify-content: space-between;
+    width: 692px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header__inner-bottom__list-logo {}
+
+.site-header__inner-bottom__item {}
+
+.site-header__inner-bottom__right-main {
+    display: flex;
+    align-items: center;
+    width: 147px;
+}
+
+.site-header__inner-bottom__right-main__logo {}
+
+.site-header__inner-bottom__right-main__text {
+    text-decoration: none;
+    color: #333333;
+    margin-left: 9px;
+}
+
+/* --------------------------------------------HERO----------------------------------------- */
+.hero {
+    background-image: url('./images/Dogs.jpg'), url('./images/To\'ti.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 555px) calc(50% - 110px), calc(50% + 700px) calc(50% + 165px);
+    padding: 145px 97px 238px 738px;
+    background-color: #F9F8F8;
+}
+
+.hero-inner {}
+
+.hero__inner-main {
+    width: 608px;
+}
+
+.hero__inner-main__title {
+    color: #333333; 
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 29px;
+}
+
+.hero__inner-main__title-span {
+    color: #78C0DE;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.hero__inner-main__text {
+    margin-bottom: 38px;
+    color: #949494;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.hero__inner-main__btn {
+    text-decoration: none;
+    color: #FFF;
+    padding: 15px 48px;
+    border-radius: 3px;
+    background: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
